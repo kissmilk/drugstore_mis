@@ -6,6 +6,8 @@
 import 'es6-promise/auto'
 import $ from 'jquery'
 global.$ = global.jQuery = $
+import 'bootstrap/js/bootstrap.min.js'
+import 'bootstrap/css/bootstrap.min.css'
 import {app, router} from './app'
 import Vue from 'vue'
 
